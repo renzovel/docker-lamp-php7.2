@@ -5,7 +5,7 @@ Linux/Apache/MySQL/PHP development environment optimized for xt:Commerce and TYP
 
 ### Features
 
--	**PHP 7** (CLI & Apache 2.0 Handler)
+-	**PHP 7.1** (CLI & Apache 2.0 Handler)
 -	ionCube PHP Loader
 -	Zend OPcache
 -	Xdebug (Set breakpoint in code with function `xdebug_break()`\)
@@ -69,10 +69,10 @@ Bash into
 ---------
 
 ```
-docker exec -ti dockerlampphp7_php_1 /bin/bash
+docker exec -ti dockerlampphp71_php_1 /bin/bash
 ```
 
-> Container name is `dockerlampphp7_php_1`. Change it to your container name.
+> Container name is `dockerlampphp71_php_1`. Change it to your container name.
 
 Stop
 ----
